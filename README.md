@@ -13,7 +13,7 @@ Here's how you can use the `mailtm` library to perform various actions:
 ### Importing the Library
 
 ```python
-import mailtm
+from mailtm import *
 ```
 
 ### Creating a Temporary Email Account
