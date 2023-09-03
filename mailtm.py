@@ -49,7 +49,7 @@ def create_account(domain):
 
 def get_token_of_account(mail,password):
     json_data = {
-        "address": mail,
+        "address": mail.lower(),
         "password": password,
     }
 
